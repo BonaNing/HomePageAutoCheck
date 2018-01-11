@@ -9,6 +9,7 @@ import time
 
 from requests.exceptions import ConnectTimeout
 
+sys.setdefaultencoding('utf-8')
 
 class HttpJSONClient(object):
     def __init__(self):
