@@ -56,7 +56,7 @@ def test_url(url):
         if data["status_code"] == 200:
             # 判断页面内容是否为空
             if data["content"]:
-                print("访问 %s 成功, 且成功获取到页面内容。" % (url)
+                print("访问 %s 成功, 且成功获取到页面内容。" % url)
             else:
                 print("访问 %s 成功，但没有获取到页面内容。" % url)
         else:
