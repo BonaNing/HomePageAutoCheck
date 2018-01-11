@@ -67,7 +67,7 @@ def main():
     number = 5  # 总共访问多少次
     sleep_time = 5  # 每次访问结束后等待几秒再次访问
     count = 0  # 当前已经访问的次数
-    url = "http://www.jiedaibao.com/"  # 要测试的网址
+    url = "https://www.jiedaibao.com/"  # 要测试的网址
     while count < number:
         try:
             # 访问一次url
